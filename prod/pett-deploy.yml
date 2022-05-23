@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: spring-petclinic
-          image: st251/petclinic:57
+          image: st251/petclinic:55
           ports:
             - name: web
               containerPort: 8181
