@@ -24,7 +24,8 @@ spec:
               value: mysql
             - name: DB_URL
               value: jdbc:mysql://db.czfxnfuxjxro.us-east-1.rds.amazonaws.com:3306/petclinic
-
+            - name: MYSQL_ROOT_PASSWORD
+              value: petclinic
 
 
 
