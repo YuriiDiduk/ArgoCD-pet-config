@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: spring-petclinic
-          image: st251/petclinic:59
+          image: st251/petclinic:62
           ports:
             - name: web
               containerPort: 8181
@@ -23,8 +23,8 @@ spec:
             - name: SPRING_PROFILES_ACTIVE
               value: mysql
             - name: DB_URL
-              value: jdbc:mysql://db.c6si9gxgddbu.us-east-1.rds.amazonaws.com:3306/petclinic
-            - name: MYSQL_ROOT_PASSWORD
+              value: jdbc:mysql://db.c6si9gxgddbu.us-east-1.rds.amazonaws.com:3306
+            - name: MYSQL_PASSWORD
               value: petclinic
 
 
