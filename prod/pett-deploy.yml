@@ -23,7 +23,7 @@ spec:
             - name: SPRING_PROFILES_ACTIVE
               value: mysql
             - name: DB_URL
-              value: jdbc:mysql://db.czfxnfuxjxro.us-east-1.rds.amazonaws.com:3306/petclinic
+              value: jdbc:mysql://db.c6si9gxgddbu.us-east-1.rds.amazonaws.com:3306/petclinic
             - name: MYSQL_ROOT_PASSWORD
               value: petclinic
 
